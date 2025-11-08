@@ -1,0 +1,90 @@
+/* Global font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+.logout-icon {
+  color: #043766d5;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.logout-icon:hover {
+  color: #ff1e56;
+  transform: rotate(90deg);
+}
+.navbar {
+  background: rgb(241, 244, 248) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.397);
+}
+
+
+.custom-nav .nav-link {
+  color: rgba(245, 51, 99, 0.925) !important;
+  font-weight: bold;
+}
+
+.custom-nav .nav-link:hover {
+  color: rgba(37, 145, 207, 0.616) !important;
+}
+
+
+
+.carousel-img {
+  height: 90vh;
+  transition: transform 7s ease;
+}
+
+.carousel-item.active .carousel-img {
+  transform: scale(1.05); /* zoom effect */
+}
+
+.carousel-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #000;
+}
+
+.carousel-logo {
+  width: 200px;
+  height: 50px;
+  margin: 10px 0;
+}
+.zoom {
+  transition: transform 0.2s ease;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+}
+.chef-card {
+  text-align: center;
+}
+
+.chef-img {
+  width: 250px;
+  height: 200px;
+  margin:2px;
+  border-radius: 60%;
+  border: 8px solid #e68eb1; /* goldish border */
+  padding: 2px;
+}
+
+
+.offer-btn {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
