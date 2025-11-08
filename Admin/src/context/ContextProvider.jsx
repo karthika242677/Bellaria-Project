@@ -6,7 +6,7 @@ import axios from 'axios'
 
 export const MyContext=createContext()
 const ContextProvider = ({children}) => {
-      const url = "http://localhost:5000"
+      const url = "https://bellaria.onrender.com"
     const[category,setCategory]=useState("")
     const[type,setType]=useState("")
     const[desc,setDesc]=useState("")
