@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 export const MyContext = createContext();
 
 const MyContextProvider = ({ children }) => {
-  const url = "http://localhost:5000";
+        const url = "https://bellaria.onrender.com"
 const navigate=useNavigate("")
 
   const [productData, setProductData] = useState([]);   // ✅ backend products
