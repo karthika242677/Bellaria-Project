@@ -122,6 +122,7 @@ const navigate=useNavigate("")
       console.log(formData)
       await axios.post(`${url}/user/add`, formData);
       alert("Register Successfully");
+      navigate("/home")
     } catch (err) {
       console.log(`Error: ${err.message}`);
     }
